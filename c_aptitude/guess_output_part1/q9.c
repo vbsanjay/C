@@ -4,7 +4,7 @@ int printCount(int count){
     for(;;){
         if(count == 10)
             break;
-        printf("%d", ++count);
+        printf("%d ", ++count);
     }
     return 0;
 }
